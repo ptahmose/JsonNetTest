@@ -183,14 +183,9 @@ namespace JsonNetTest
                         l.Add(new RgbNormalized() { R = value[i * 3], G = value[i * 3 + 1], B = value[i * 3 + 2] });
                     }
 
-
                     this.list = l.Count > 0 ? l : null;
                 }
             }
         }
     }
-
-
-
-  
 }
